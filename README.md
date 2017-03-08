@@ -2,6 +2,10 @@
 
 ## General
 
+- Plan is to kleep the language as simple as possible whilst maintaining accuracy - tend towards over explaining
+- Nice to provide many useful links and also code for examples
+- Approximately 3 A4 pages is probably a good aim (Long Read)
+
 ## Outline
 
 #### Introduction to Upper Limit
