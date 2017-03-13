@@ -1,0 +1,16 @@
+INTRODUCTION
+
+So you want to set an upper limit?
+Then you've come to the right place. 
+The search for dark matter has been going on for more than half a century now and no one has found a convincing signal which is why our community lives and breath upper limits.
+We know how it feels.
+You build a fantastic experiments, perform scrupulous measurements, and find nothing.
+It sucks, but not the end of the world - you can set an upper limit.
+But how?
+Don't fear, we are here to help you set the best (most correct...) constraints you can!
+
+The idea of this post is not to produce an exhaustive list of all possible methods to produce an upper limit but rather
+
+UPPER LIMIT
+
+So, an upper limit is something we use to "exclude" parts of the parameter space.
