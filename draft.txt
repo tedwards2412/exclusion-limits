@@ -2,15 +2,28 @@ INTRODUCTION
 
 So you want to set an upper limit?
 Then you've come to the right place. 
-The search for dark matter has been going on for more than half a century now and no one has found a convincing signal which is why our community lives and breath upper limits.
+The search for dark matter has been going on for more than half a century now and no one has found a convincing signal which is why our community lives and breathes upper limits.
 We know how it feels.
 You build a fantastic experiments, perform scrupulous measurements, and find nothing.
 It sucks, but not the end of the world - you can set an upper limit.
 But how?
-Don't fear, we are here to help you set the best (most correct...) constraints you can!
+Don't fear, we are here to help you set the best (probably just correct...) constraints you can!
 
-The idea of this post is not to produce an exhaustive list of all possible methods to produce an upper limit but rather
+Let us start by defining the purpose of this particular post. The idea of this post is not to produce an exhaustive list of all possible methods and to that end.
 
-UPPER LIMIT
+This will:
+- A basic run down of what an upper limit means in technical and nontechnical language
+- An easy guide on how to use the maximum likelihood ratio method to set an upper limit
+- An explanation of the concept of coverage and why it’s important
+- Complemented by coded examples for you to use in your own projects or to play around with to gain intuition
+- A good place to start with helpful references
 
-So, an upper limit is something we use to "exclude" parts of the parameter space.
+This will NOT:
+- A conclusive guide on how to set an upper limit in any situation ever conceived
+- Replace an actual scientific paper
+- Be completely mathematically rigorous
+
+
+UPPER LIMIT INTRODUCTION
+
+So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps scientific communities best hope. Either way placing limits is a *almost exclusively* model dependent. By model here we simply mean something you use to describe the data on hand. Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. For simplicity we will therefore just look at the basic example of two parameters like considered in most dark matter searches.
