@@ -26,4 +26,9 @@ This will NOT:
 
 UPPER LIMIT INTRODUCTION
 
-So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps scientific communities best hope. Either way placing limits is a *almost exclusively* model dependent. By model here we simply mean something you use to describe the data on hand. Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. For simplicity we will therefore just look at the basic example of two parameters like considered in most dark matter searches.
+So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. 
+This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps scientific communities best hope. 
+Either way placing limits is a *almost exclusively* model dependent. 
+By model here we simply mean something you use to describe the data on hand. 
+Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. 
+For simplicity we will therefore just look at the basic example of two parameters like considered in most dark matter searches.
