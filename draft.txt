@@ -24,7 +24,7 @@ This will NOT:
 - Be completely mathematically rigorous
 
 
-UPPER LIMIT INTRODUCTION
+UPPER LIMIT
 
 So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. 
 This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps scientific communities best hope. 
@@ -33,5 +33,22 @@ By model here we simply mean something you use to describe the data on hand.
 Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. 
 For simplicity we will therefore just look at the basic example of two parameters like considered in most dark matter searches.
 
-So lets take at just what a limit plot might look like. The Fermi-LAT telescope performs observations of our local dwarf galaxies from which we expect a large amount of dark matter annihilation signal. Now lets not get into what that means and only use this as a signal vs background discussion. Taking a look at the plot we see two parameters on the x and y axis, the dark matter mass and the velocity averaged cross section respectively. Both of these parameters appear in the calculation required to model the expected signal which is precisely the important step. The correct way to read a plot like this is to take a value of the dark matter mass (x axis) and trace vertically until you meet the black dashed line labelled ‘Median Expected’. The paper quotes this line as a 95% confidence level limit meaning that if 100 identical Fermi-LAT experiments were to calculate the expected signal at a given mass, 95 of would be consistent with the no signal i.e. the null hypothesis. @SL{Need to check and discuss best phrasing here}
+Lets take at just what a limit plot might look like. The Fermi-LAT telescope performs observations of our local dwarf galaxies from which we expect a large amount of dark matter annihilation signal. Now lets not get into what that means and only use this as a signal vs background discussion. Taking a look at the plot we see two parameters on the x and y axis, the dark matter mass and the velocity averaged cross section respectively. Both of these parameters appear in the calculation required to model the expected signal which is precisely the important step. The correct way to read a plot like this is to take a value of the dark matter mass (x axis) and trace vertically until you meet the black dashed line labelled ‘Median Expected’. The paper quotes this line as a 95% confidence level limit meaning that if 100 identical Fermi-LAT experiments were to calculate the expected signal at a given mass, 95 of them would be consistent with the no signal i.e. the null hypothesis. Another way to phrase this is that at 95% confidence the signal received is consistent with background only TE:@SL{Need to check and discuss best phrasing here}.
 
+The subtlety here is hidden in the word ‘consistent’. Exactly what this means requires a deeper discussion of how to construct an upper limit and will be the main focus of this article
+
+TEST STATISTICS, COVERAGE, POISSON LIKELIHOODS, AND WILKS THEOREM
+
+We will start off with some loose definitions to facilitate the discussion and ensure we remain accurate. Firstly, a statistic is an object one constructs from the data to summarise the information contained within. The ‘mean’ of a data set is the archetypal example of a statistic. Adding the word test before and we get ‘test statistic’ but in fact this does not change anything. A test statistic is just the word used to describe a statistic constructed for hypothesis testing, which is kind of what we are doing here. Hypothesis testing is just the act of comparing the null hypothesis (background only) vs the alternative hypothesis (signal and background).
+
+The main purpose of a test statistic is to differentiate between the null and alternative hypotheses. We therefore want to construct an object which will maximise the difference TE:@SL{Discuss this}
+
+What is coverage?
+
+What is Wilks theorem? 
+
+HOW TO SET AN UPPER LIMIT
+
+CAVEATS
+
+ROUND UP
