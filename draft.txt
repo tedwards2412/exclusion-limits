@@ -27,7 +27,7 @@ This will NOT:
 UPPER LIMIT
 
 So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. 
-This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps scientific communities best hope. 
+This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps the best hope of a scientific communities. 
 Either way placing limits is a *almost exclusively* model dependent. 
 By model here we simply mean something you use to describe the data on hand. 
 Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. 
@@ -37,13 +37,23 @@ Lets take at just what a limit plot might look like. The Fermi-LAT telescope per
 
 The subtlety here is hidden in the word ‘consistent’. Exactly what this means requires a deeper discussion of how to construct an upper limit and will be the main focus of this article
 
-TEST STATISTICS, COVERAGE, POISSON LIKELIHOODS, AND WILKS THEOREM
+TEST STATISTIC, COVERAGE, POISSON LIKELIHOODS, AND WILKS THEOREM
 
-We will start off with some loose definitions to facilitate the discussion and ensure we remain accurate. Firstly, a statistic is an object one constructs from the data to summarise the information contained within. The ‘mean’ of a data set is the archetypal example of a statistic. Adding the word test before and we get ‘test statistic’ but in fact this does not change anything. A test statistic is just the word used to describe a statistic constructed for hypothesis testing, which is kind of what we are doing here. Hypothesis testing is just the act of comparing the null hypothesis (background only) vs the alternative hypothesis (signal and background).
+We will start off with some loose definitions to facilitate the discussion and ensure we remain accurate. Firstly, a statistic is an object one constructs from the data to summarise the information contained within. The ‘mean’ of a data set is the archetypal example of a statistic. Adding the word test before and we get ‘test statistic’ (TS) but in fact this does not change anything. A test statistic is just the word used to describe a statistic constructed for hypothesis testing, which is kind of what we are doing here. Hypothesis testing is just the act of comparing the null hypothesis (background only) vs the alternative hypothesis (signal and background).
 
-The main purpose of a test statistic is to differentiate between the null and alternative hypotheses. We therefore want to construct an object which will maximise the difference TE:@SL{Discuss this}
+The main purpose of a test statistic is to differentiate between hypotheses. We therefore want to construct an object which will maximise the difference between the null and alternative hypothesis. The most standard example of a TS is the maximum likelihood ratio (MLR),  which we will examine word by word, starting with likelihood. A likelihood is a function that describes the the probability of your model to predict the data. Typically a likelihood is made up of your model plus some structure to provide the desired behaviour. By desired behaviour we basically mean that the likelihood returns a higher value if the input model fits the data well and a lower value if it does not. We will use a Poisson likelihood from now on since most experiments in their most raw form are counting experiments. https://www.youtube.com/watch?v=6wef4MRm_XA is a nice video showing the Poisson likelihood function.
+Moving forward, ‘ratio` just describes the fact that we will divide one likelihood function by another. We then have to also address what the maximum means here, but it easier to just show the entire thing mathematically. So here is the full definition of the  MLR TS,
+
+$latex TS(\theta_1|\mathcal{D}) = -2 \ln\frac
+{\mathcal{L}(\theta_1, \hat{\theta_2}, \dots, \hat{\theta}_n|D)}
+{\mathcal{L}(\hat{\theta}_1, \dots, \hat{\theta}_n|D)}, $
+
+where the the $latex \theta$’s represent the model parameters, hats meaning maximise over, and $latex D$ is simply the data. Note here that this is specifically for setting an upper limit on $latex \theta_1$. Lets ignore the logarithm for now and just examine the ratio. The ratio here is constructed such that if you are testing the most favoured part of the  parameter space, it will be equal to one. It is easy to see this since if you maximise over all the parameters apart from $latex theat_1$ in the numerator but you happen to be testing the region where $latex \theta_1 = \hat{\theta}_1$ then obviously the numerator and denominator are identically one. The important feature here is that when $latex \theta_1 \neq \hat{\theta}_1$ the ratio will always be lower than one. Before we move on to applying what we just learnt, there are some other important definitions
+TE:@SL{Discuss this}
 
 What is coverage?
+
+
 
 What is Wilks theorem? 
 
