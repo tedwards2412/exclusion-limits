@@ -1,13 +1,6 @@
 INTRODUCTION
 
-So you want to set an upper limit?
-Then you've come to the right place. 
-The search for dark matter has been going on for more than half a century now and no one has found a convincing signal which is why our community lives and breathes upper limits.
-We know how it feels.
-You build a fantastic experiments, perform scrupulous measurements, and find nothing.
-It sucks, but not the end of the world - you can set an upper limit.
-But how?
-Don't fear, we are here to help you set the best (probably just correct...) constraints you can!
+So you want to set an upper limit? Then you've come to the right place. The search for dark matter has been going on for more than half a century now and no one has found a convincing signal which is why our community lives and breathes upper limits. We know how it feels. You build a fantastic experiments, perform scrupulous measurements, and find nothing. It sucks, but not the end of the world - you can set an upper limit. But how? Don't fear, we are here to help you set the best (probably just correct...) constraints you can!
 
 Let us start by defining the purpose of this particular post. The idea of this post is not to produce an exhaustive list of all possible methods and to that end.
 
@@ -23,17 +16,13 @@ This will NOT:
 - Replace an actual scientific paper
 - Be completely mathematically rigorous
 
+This will be the first of 2 posts, so if you find this one useful then be sure to come back for more discussion and techniques.
 
 UPPER LIMIT
 
-So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. 
-This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps the best hope of a scientific communities. 
-Either way placing limits is a *almost exclusively* model dependent. 
-By model here we simply mean something you use to describe the data on hand. 
-Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. 
-For simplicity we will therefore just look at the basic example of two parameters like considered in most dark matter searches.
+So, upon first site an upper limit is used when we want to "exclude" parts of the parameter space. This immediately implies that we have some parameter space to exclude, usually part of a favourite model or perhaps the best hope of a scientific communities. Either way placing limits is a *almost exclusively* model dependent. By model here we simply mean something you use to describe the data on hand. Now, usually a model has many parameters which presents problems when you want to display an upper limit on a 2D plot. For simplicity we will therefore just look at the basic example of two parameters like considered in most dark matter searches.
 
-Lets take at just what a limit plot might look like. The Fermi-LAT telescope performs observations of our local dwarf galaxies from which we expect a large amount of dark matter annihilation signal. Now lets not get into what that means and only use this as a signal vs background discussion. Taking a look at the plot we see two parameters on the x and y axis, the dark matter mass and the velocity averaged cross section respectively. Both of these parameters appear in the calculation required to model the expected signal which is precisely the important step. The correct way to read a plot like this is to take a value of the dark matter mass (x axis) and trace vertically until you meet the black dashed line labelled ‘Median Expected’. The paper quotes this line as a 95% confidence level limit meaning that if 100 identical Fermi-LAT experiments were to calculate the expected signal at a given mass, 95 of them would be consistent with the no signal i.e. the null hypothesis. Another way to phrase this is that at 95% confidence the signal received is consistent with background only TE:@SL{Need to check and discuss best phrasing here}.
+Lets take at just what a limit plot might look like. The Fermi-LAT telescope performs observations of our local dwarf galaxies from which we expect a large amount of dark matter annihilation signal. Now lets not get into what that means and only use this as a signal vs background discussion. Taking a look at the plot we see two parameters on the x and y axis, the dark matter mass and the velocity averaged cross section respectively. Both of these parameters appear in the calculation required to model the expected signal which is precisely the important step. The correct way to read a plot like this is to take a value of the dark matter mass (x axis) and trace vertically until you meet the base lowest value of the yellow band. The paper quotes this line as a 95% confidence level limit meaning that if 100 identical Fermi-LAT experiments were to calculate the expected signal at a given mass, 95 of them would be consistent with the no signal i.e. the null hypothesis. Another way to phrase this is that at 95% confidence the signal received is consistent with background only TE:@SL{Need to check and discuss best phrasing here}.
 
 The subtlety here is hidden in the word ‘consistent’. Exactly what this means requires a deeper discussion of how to construct an upper limit and will be the main focus of this article
 
@@ -51,14 +40,18 @@ $latex TS(\theta_1|\mathcal{D}) = -2 \ln\frac
 where the the $latex \theta$’s represent the model parameters, hats meaning maximise over, and $latex D$ is simply the data. Note here that this is specifically for setting an upper limit on $latex \theta_1$. Lets ignore the logarithm for now and just examine the ratio. The ratio here is constructed such that if you are testing the most favoured part of the  parameter space, it will be equal to one. It is easy to see this since if you maximise over all the parameters apart from $latex theat_1$ in the numerator but you happen to be testing the region where $latex \theta_1 = \hat{\theta}_1$ then obviously the numerator and denominator are identically one. The important feature here is that when $latex \theta_1 \neq \hat{\theta}_1$ the ratio will always be lower than one. Before we move on to applying what we just learnt, there are some other important definitions
 TE:@SL{Discuss this}
 
-What is coverage?
-
+Confidence interval and coverage:
+The concepts of a confidence interval and coverage are reasonably interlinked concepts. A confidence interval is a range of parameter space in which you expect the true value to exist. Going back to the image from the Fermi satellite, two confidence intervals are displayed as the green and yellow bands. From here the coverage is simply defined as the proportion of time that your confidence interval contains the correct or true value. http://students.brown.edu/seeing-theory/statistical-inference/index.html#first is an extremely good visualisation for confidence interval and the confidence level which very similar to what we refer to hear as the coverage.
+TE:@SL{Discuss example?}
 
 
 What is Wilks theorem? 
+
+So now we can revisit the MLR. As you may have noticed, we have so far ignored the $latex -2\ln$ in the expression. The reason it appears comes from the fact that it matches exactly with a well known distribution called Chi-squared. The Chi-squared distribution is defined by the `degrees of freedom’ and for the MLR it is given by the difference in dimensionality between your alternative and null hypothesis. This result was first noticed by Wilks (Wilks theorem…) in 1938 and only applies when you have a decent number of data points. We will comment later on when you can actually apply this theorem and the subject of the next post will be what to do when you cannot. But for now lets just go ahead and apply it and see what we get.
 
 HOW TO SET AN UPPER LIMIT
 
 CAVEATS
 
-ROUND UP
+WHAT NEXT?
+
