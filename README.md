@@ -4,9 +4,9 @@
 
 - Plan is to kleep the language as simple as possible whilst maintaining accuracy - tend towards over explaining
 - Nice to provide many useful links and also code for examples
-- Approximately 3 A4 pages is probably a good aim (Long Read)
+- Approximately 3 A4 pages is probably a good aim (Long Read - 1500 words)
 
-## Outline
+## Outline — article 1
 
 #### Introduction to Upper Limit
 
@@ -29,16 +29,19 @@
 - Detailed steps on how to use the maximum likelihood ratio when Wilks theorem applies
 - Few Examples. Maybe outside of Physics?
 
+#### Common Pitfalls
+
+- Present a list of times this might not work
+
+#### Round up
+
+- Bullet point list of steps to check your upper limit is correct
+- Any other remarks
+
+## Outline — article 2
+
 #### What to do if Wilks theorem does not apply
 
 - Use Monte Carlos - brief explanation of a MC but mainly links
 - Show examples
 
-#### Caveats? Maybe not necessary
-
-- Present a list of times this might not work
-
-#### Conclude
-
-- Bullet point list of steps to check your upper limit is correct
-- Any other remarks
