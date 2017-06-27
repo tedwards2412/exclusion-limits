@@ -1,47 +1,59 @@
-# So you want to set an Upper limit?
+## Exclusion limits and associated concepts
 
-## General
+- Plan is to keep the language as simple as possible whilst maintaining accuracy - tend towards over explaining
+- Aim to provide useful links and coded examples of core concepts
+- Early PhD students and masters students are the target audience.
+They already have some knowledge of random variables and probability distributions and
+have come across upper limits before but no knowledge of how to set them.
+- End goal is to fully explain and compute/produce an upper limit and brazil plot
+- Potential to expand to an exclusion limit cookbook
+- Unclear if we want to discuss actual measurement of signal i.e. closed contour stuff
 
-- Plan is to kleep the language as simple as possible whilst maintaining accuracy - tend towards over explaining
-- Nice to provide many useful links and also code for examples
-- Approximately 3 A4 pages is probably a good aim (Long Read - 1500 words)
+## Outline
 
-## Outline — article 1
+#### Introduction to Exclusion Limits
 
-#### Introduction to Upper Limit
-
-- What is an upper limit? - Technical definition followed by what the hell does that mean
-- Why do we set upper limits
-- Establish that this is not an exhaustive guide for all methods but we address the most common method
-- Plant ourselves in the Frequentist world - why for upper limits
+- What is an exclusion limit? - Technical definition followed colloquial version
+- Why do we set exclusion limits?
+- Establish that this is not an exhaustive guide for all methods but we address the common methods
+- Plant ourselves in the Frequentist world - why for exclusion limits
 - Concept of coverage introduced here
 
 #### Test Statistics 
 
 - What is a test statistic
-- What test statistic is most commonly used - Likelihood ratio - links here to what is a likleihood
+- What test statistic is most commonly used - Likelihood ratio
 - Why is the maximum likelihood ratio a good TS
 -- Wilks Theorem 
 -- When does Wilks theorem apply
 
-#### How to use this to set an upper limit
+#### How to use this to set an exclusion limit
 
 - Detailed steps on how to use the maximum likelihood ratio when Wilks theorem applies
-- Few Examples. Maybe outside of Physics?
+- Few Examples. Colliders, line search indirect DM, and cosmology example?
 
 #### Common Pitfalls
 
-- Present a list of times this might not work
-
-#### Round up
-
-- Bullet point list of steps to check your upper limit is correct
-- Any other remarks
-
-## Outline — article 2
+- Present a list of times this might not work and why
+-- Wilks Theorem limits of rough validity
+-- Downward fluctuations in the background
+- Show how previous examples might fail
 
 #### What to do if Wilks theorem does not apply
 
-- Use Monte Carlos - brief explanation of a MC but mainly links
+- Monte Carlos discussion
 - Show examples
+
+#### Diagnostics
+
+- Visulation tools
+-- Contour plots
+-- Mutlidimensional stuff here
+- Any other remarks
+
+#### You did it!
+
+- Pointers
+- Follow up information
+- Useful references
 
