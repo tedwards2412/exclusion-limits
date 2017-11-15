@@ -1,59 +1,64 @@
-## Exclusion limits and associated concepts
+## Exclusion limits - A Complete Guide
 
-- Plan is to keep the language as simple as possible whilst maintaining accuracy - tend towards over explaining
-- Aim to provide useful links and coded examples of core concepts
-- Early PhD students and masters students are the target audience.
-They already have some knowledge of random variables and probability distributions and
-have come across upper limits before but no knowledge of how to set them.
-- End goal is to fully explain and compute/produce an upper limit and brazil plot
-- Potential to expand to an exclusion limit cookbook
-- Unclear if we want to discuss actual measurement of signal i.e. closed contour stuff
+The purpose of this repository is to collect and explain the concepts associated 
+with exclusion limits (often known as upper limits). We aim to make it a stand alone 
+project such that it is understable with relatively basic knowledge of statistics. We 
+will try to provide references to either books or lectures notes at points of assumed 
+knowledge.
 
-## Outline
+Most of the text will be written in the form of jupyter notebooks within this repository 
+but there will most likely be an accompanying document where we ellaborate on the mathematics 
+behind the concepts used here. The notebooks will contain coded examples for the majority 
+of the concepts we introduce throughout the text.  
 
-#### Introduction to Exclusion Limits
+Below we have a series of links to the different chapters and a one line description of 
+whats contained within.
 
-- What is an exclusion limit? - Technical definition followed colloquial version
-- Why do we set exclusion limits?
-- Establish that this is not an exhaustive guide for all methods but we address the common methods
-- Plant ourselves in the Frequentist world - why for exclusion limits
-- Concept of coverage introduced here
+## Contents
 
-#### Test Statistics 
+#### Introduction
+
+- What is an exclusion limit?
+- Bayesian vs Frequentist
+- Quick guide to using this tool
+
+#### Technical Concepts 
 
 - What is a test statistic
 - What test statistic is most commonly used - Likelihood ratio
 - Why is the maximum likelihood ratio a good TS
--- Wilks Theorem 
--- When does Wilks theorem apply
+- Wilks Theorem 
+- When does Wilks theorem apply
 
-#### How to use this to set an exclusion limit
+#### Maximum Likelihood Ratio (MLR)
 
-- Detailed steps on how to use the maximum likelihood ratio when Wilks theorem applies
-- Few Examples. Colliders, line search indirect DM, and cosmology example?
+- What is the MLR
 
-#### Common Pitfalls
+###### Large Sample Limit (Asymptotic behaviour known)
 
-- Present a list of times this might not work and why
--- Wilks Theorem limits of rough validity
--- Downward fluctuations in the background
-- Show how previous examples might fail
+- Wilks theorem
+- Using Wilks theorem to construct an upper limit
+- Downward fluctuations in the background
 
-#### What to do if Wilks theorem does not apply
+###### Small Sample Limit
 
-- Monte Carlos discussion
-- Show examples
+#### Maximum Gap Method
 
-#### Diagnostics
+#### Fisher Method
+
+- Fisher Information MAtrix
+- Equivalent Counts Method
+
+###### Equivalent Counts Method
+
+#### Connection to Bayesian Statistics
+
+#### Visualisation Methods
 
 - Visulation tools
 -- Contour plots
 -- Mutlidimensional stuff here
-- Any other remarks
 
-#### You did it!
+#### Conclusions
 
-- Pointers
-- Follow up information
-- Useful references
-
+#### Useful References
