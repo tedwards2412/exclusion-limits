@@ -1,18 +1,16 @@
 ## Exclusion limits - A Complete Guide
 
 The purpose of this repository is to collect and explain the concepts associated 
-with exclusion limits (often known as upper limits). We aim to make it a stand alone 
-project such that it is understable with relatively basic knowledge of statistics. We 
-will try to provide references to either books or lectures notes at points of assumed 
-knowledge.
+with exclusion limits.
+Our aim is to keep it a stand alone resource such that it is understandable with relatively basic knowledge of statistics.
+We will provide relevant references to either books or lectures notes at points of assumed knowledge.
 
-Most of the text will be written in the form of jupyter notebooks within this repository 
-but there will most likely be an accompanying document where we ellaborate on the mathematics 
-behind the concepts used here. The notebooks will contain coded examples for the majority 
-of the concepts we introduce throughout the text.  
+Most of the text will be written in the form of Jupyter notebooks within this repository 
+but there will most likely be an accompanying document where we elaborate on the mathematics 
+behind the concepts used here.
+The notebooks will contain coded examples for the majority of the concepts we introduce throughout the text.  
 
-Below we have a series of links to the different chapters and a one line description of 
-whats contained within.
+Below we have a series of links to the different chapters with short descriptions.
 
 ## Contents
 
@@ -24,30 +22,33 @@ whats contained within.
 
 #### Technical Concepts 
 
+- What is a likelihood
 - What is a test statistic
-- What test statistic is most commonly used - Likelihood ratio
-- Why is the maximum likelihood ratio a good TS
-- Wilks Theorem 
-- When does Wilks theorem apply
+
+#### Neyman construction
+
+##### Feldman and Cousins
 
 #### Maximum Likelihood Ratio (MLR)
 
-- What is the MLR
+- What is the Maximum Likelihood Ratio
+- Why is the maximum likelihood ratio a good TS
 
 ###### Large Sample Limit (Asymptotic behaviour known)
 
-- Wilks theorem
-- Using Wilks theorem to construct an upper limit
+- Wilks' theorem
+- Using Wilks' theorem to construct an exclusion limit
 - Downward fluctuations in the background
 
 ###### Small Sample Limit
+
+#### CLs method
 
 #### Maximum Gap Method
 
 #### Fisher Method
 
-- Fisher Information MAtrix
-- Equivalent Counts Method
+- Fisher Information Matrix
 
 ###### Equivalent Counts Method
 
@@ -55,9 +56,9 @@ whats contained within.
 
 #### Visualisation Methods
 
-- Visulation tools
--- Contour plots
--- Mutlidimensional stuff here
+- Visualisation tools
+- Contour plots
+- Multidimensional stuff here
 
 #### Conclusions
 
