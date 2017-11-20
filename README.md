@@ -16,7 +16,7 @@ Below we have a series of links to the different chapters with short description
 
 #### Introduction
 
-- What is an exclusion limit?
+- [What is an exclusion limit?](https://github.com/tedwards2412/upper-limit/blob/master/Introduction/What_is_an_exclusion_limt.ipynb)
 - Bayesian vs Frequentist
 - Quick guide to using this tool
 
