@@ -17,12 +17,12 @@ Below we have a series of links to the different chapters with short description
 #### Introduction
 
 - [What is an exclusion limit?](https://github.com/tedwards2412/upper-limit/blob/master/Introduction/What_is_an_exclusion_limt.ipynb)
-- Bayesian vs Frequentist
+- [Bayesian vs Frequentist](https://github.com/tedwards2412/exclusion-limits/blob/master/Introduction/Bayesian_vs_Frequentist.ipynb)
 - Quick guide to using this tool
 
 #### Technical Concepts 
 
-- What is a likelihood
+- [What is a likelihood](https://github.com/tedwards2412/exclusion-limits/blob/master/Tecnical_concepts/Likelihoods.ipynb)
 - What is a test statistic
 
 #### Neyman construction
